@@ -1,0 +1,124 @@
+body {
+	background-image: url("achtergrodn.jpg");
+	background-position: top right; 
+	background-size: 1500px auto;}
+
+header {
+	width: 70%;
+	margin: 2em auto 2em auto;
+	height: auto;
+	border-top: 1px solid black;
+	background-image: url("achtergrodn.jpg");}
+
+.navigatie {
+	margin: auto;
+	width: 33%;
+	height: auto;}
+
+a {
+	width: auto;
+	margin: auto;
+	font-family: 'Old Standard TT', serif;	
+	padding: 0.6em;
+	font-size: 120%;
+	color: grey;
+	text-decoration: none;}
+
+a:first-child {
+	color: grey;
+	text-decoration: underline;}
+
+h1 {
+	font-family: 'Old Standard TT', serif;
+	text-align: center;
+	font-size: 600%;
+	margin-top: 0.3em;}
+
+.afbeeldingen {
+	margin: auto;
+	width: 70%;}
+
+.rij1 {
+	margin: auto;
+	width: 100%;}
+
+.rij2 {
+	margin: auto;
+	width: 100%;}
+
+.links{
+	width: 50%;
+	float: left;}
+
+.rechts{
+	width: 50%;
+	float: right;}
+
+.afbeeldingen img {
+	width: 47%;
+	border: 1px solid black;
+	margin: 1%;}
+
+footer {
+	width: 100%;
+	height: auto;
+	margin: 5em auto 5em auto;
+	margin-bottom: 5em;
+	border-top: 1px solid black;
+
+.social {
+	width: 100%;
+	margin: auto;
+
+.social img {
+	width: 100%;
+	height: auto;}
+
+.facebook {
+	width: 5%;
+	margin: auto;
+	margin-right: 5%;
+	margin-left: 30%;
+	float: left;}
+
+.instagram {
+	width: 5%;
+	margin: auto;
+	float: left;
+	margin-right: 5%;}
+
+.pinterest {
+	width: 5%;
+	float: left;
+	margin: auto;
+	margin-right: 5%;}
+
+.mail {
+	width: 5%;
+	float: left;
+	margin: auto;
+	margin-right: 35%;}
+
+.adres {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 1em;
+	margin-top: -9em;
+	display: block;
+	overflow: auto;}
+
+h2 {
+	font-family: 'Old Standard TT', serif;	
+	font-size: 400%;
+	text-align: center;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;}
+
+h2:hover {
+	color: grey;
+	text-decoration: none;}
+
+p {
+	font-family: 'Old Standard TT', serif;	
+	font-size: 100%;
+	text-align: center;}
