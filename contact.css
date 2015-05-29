@@ -1,121 +1,142 @@
 body {
 	background-image: url("achtergrodn.jpg");
 	background-position: top right; 
-	background-size: 1500px auto;}
+	background-size: 1500px auto;
+}
 
 header {
 	width: 70%;
 	margin: 2em auto 2em auto;
 	height: auto;
 	border-top: 1px solid black;
-	background-image: url("achtergrodn.jpg");}
+	background-image: url("achtergrodn.jpg");
 
-.navigatie {
-	margin: auto;
-	width: 39%;
-	height: auto;}
-
-a {
-	width: auto;
-	margin: auto;
-	font-family: 'Old Standard TT', serif;	
-	padding: 0.6em;
-	font-size: 120%;
-	color: grey;
-	text-decoration: none;}
-
-a:first-child {
-	color: grey;
-	text-decoration: underline;}
-
-a:hover {
-	color: red;
 }
 
 h1 {
 	font-family: 'Old Standard TT', serif;
 	text-align: center;
 	font-size: 600%;
-	margin-top: 0.3em;}
+	margin-top: 0.3em;
+}
 
-.afbeeldingen {
+.navigatie {
 	margin: auto;
-	width: 70%;}
+	width: 39%;
+	height: auto;
+}
 
-.rij1 {
+a{
+	width: auto;
 	margin: auto;
-	width: 100%;}
+	font-family: 'Old Standard TT', serif;	
+	padding: 0.6em;
+	font-size: 120%;
+	color: grey;
+	text-decoration: none;
+}
 
-.rij2 {
+a:nth-child(3) {
+	color: grey;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.foto {
+	width: 70%;
 	margin: auto;
-	width: 100%;}
 
-.links{
-	width: 50%;
-	float: left;}
+}
 
-.rechts{
-	width: 50%;
-	float: right;}
+img {
+	width: 30%;
+	float: left;
+	margin-left: 15%;
+	margin-right: 5%;
+	margin-top: 1.3em;
+}
 
-.afbeeldingen img {
-	width: 47%;
-	border: 1px solid black;
-	margin: 1%;}
+.info {
+	width: 30%;
+	margin-top: 2em;
+	float: left;
+	border-left: 1px solid black;
+}
+
+h2 {
+	font-family: 'Old Standard TT', serif;	
+	font-size: 200%;
+	padding: 3%;
+	color: red;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Old Standard TT', serif;	
+	font-size: 100%;
+	padding: 3%;
+}
 
 footer {
 	width: 70%;
 	height: auto;
-	margin: 35em auto 5em auto;
+	margin: 30em auto 5em auto;
 	margin-bottom: 5em;
 	border-top: 1px solid black;
-	overflow: }
+	overflow: auto;
+}
 
 .social {
 	width: 100%;
-	height: auto;
 	margin: auto;
-	overflow: }
+	background: yellow;
+}
 
 .social img {
 	width: 100%;
-	height: auto;}
+	height: auto;
+}
 
 .facebook {
 	width: 5%;
 	margin: auto;
 	margin-right: 5%;
 	margin-left: 30%;
-	float: left;}
+	float: left;
+}
 
 .instagram {
 	width: 5%;
 	margin: auto;
 	float: left;
-	margin-right: 5%;}
+	margin-right: 5%;
+}
 
 .pinterest {
 	width: 5%;
 	float: left;
 	margin: auto;
-	margin-right: 5%;}
+	margin-right: 5%;
+}
 
 .mail {
 	width: 5%;
 	float: left;
 	margin: auto;
-	margin-right: 35%;}
+	margin-right: 35%;
+}
 
-
-
-h2 {
+h3 {
 	font-family: 'Old Standard TT', serif;	
 	font-size: 400%;
 	text-align: center;
 	margin-top: 0.3em;
-	margin-bottom: 0.3em;}
+	margin-bottom: 0.3em;
+}
 
-p {
-	font-family: 'Old Standard TT', serif;	
-	font-size: 100%;
-	text-align: center;}
+
+
